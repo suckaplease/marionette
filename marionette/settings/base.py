@@ -1,4 +1,4 @@
-# Django settings for marionette project.
+# Django settings for {{project_name}} project.
 
 import os
 import sys
@@ -20,7 +20,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'marionette',
+        'NAME': '{{project_name}}',
         'USER': 'postgres',
         'PASSWORD': '',
         'HOST': '',  # Set to empty string for localhost.
@@ -116,10 +116,10 @@ MIDDLEWARE_CLASSES = (
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
-ROOT_URLCONF = 'marionette.urls'
+ROOT_URLCONF = '{{project_name}}.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'marionette.wsgi.application'
+WSGI_APPLICATION = '{{project_name}}.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -150,7 +150,7 @@ INSTALLED_APPS = (
 
 )
 
-EMAIL_SUBJECT_PREFIX = '[marionette] '
+EMAIL_SUBJECT_PREFIX = '[{{project_name}}] '
 
 INTERNAL_IPS = ('127.0.0.1', '10.0.2.2')
 
