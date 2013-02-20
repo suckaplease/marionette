@@ -12,6 +12,9 @@ VIRTUALENV_NAME=$PROJECT_NAME
 PROJECT_DIR=/home/vagrant/$PROJECT_NAME
 VIRTUALENV_DIR=/home/vagrant/.virtualenvs/$PROJECT_NAME
 
+#update one hardcoded name...
+mv $PROJECT_DIR/marionette $PROJECT_DIR/$PROJECT_NAME
+
 PGSQL_VERSION=9.1
 
 # Need to fix locale so that Postgres creates databases in UTF-8
