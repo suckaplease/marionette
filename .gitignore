@@ -1,0 +1,8 @@
+*.pyc
+.DS_Store
+.vagrant
+local.py
+public/.sass-cache/
+settings/local.py
+static
+support/*/*.csv
