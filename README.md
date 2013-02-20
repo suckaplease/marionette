@@ -8,7 +8,7 @@ Marionette Template for Heroku ready Django project
 3. Install [VirtualBox][2]
 4. Run the following command where you would like your project created, and replace `myproject` with the project's name
 
-`django-admin.py startproject --template https://github.com/suckaplease/marionette/zipball/master myproject --extension=py --name=Vagrantfile`
+    django-admin.py startproject --template https://github.com/suckaplease/marionette/zipball/master myproject --extension=py --name=Vagrantfile
 
 [1]: http://downloads.vagrantup.com/ "Vagrant"
 [2]: https://www.virtualbox.org/wiki/Downloads "VirtualBox"
