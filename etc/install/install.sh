@@ -80,3 +80,6 @@ chmod a+x $PROJECT_DIR/manage.py
 
 # Django project setup
 su - vagrant -c "source $VIRTUALENV_DIR/bin/activate && cd $PROJECT_DIR && ./manage.py syncdb --noinput && ./manage.py migrate"
+
+# install the heroku toolbelt
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
