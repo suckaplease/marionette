@@ -12,6 +12,7 @@ Marionette Template for Heroku ready Django project
 
 OPTIONAL HEROKU CONFIG:
 heroku apps:create myproject-staging --remote staging
+herkku config:add DJANGO_SETTINGS_MODULE=myproject.settings.staging
 
 [1]: http://downloads.vagrantup.com/ "Vagrant"
 [2]: https://www.virtualbox.org/wiki/Downloads "VirtualBox"
