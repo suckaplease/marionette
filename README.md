@@ -10,6 +10,9 @@ Marionette Template for Heroku ready Django project
 
 `django-admin.py startproject --template https://github.com/suckaplease/marionette/zipball/master test_deployz --extension=py --name=Vagrantfile`
 
+OPTIONAL HEROKU CONFIG:
+heroku apps:create myproject-staging --remote staging
+
 [1]: http://downloads.vagrantup.com/ "Vagrant"
 [2]: https://www.virtualbox.org/wiki/Downloads "VirtualBox"
 
